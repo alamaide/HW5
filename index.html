@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/themes/HW5Theme.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+
+    <title>Quick Getaways!</title>
+</head>
+<body>
+    <!-- ======================================================================================== -->
+    
+  
+    <div data-role="page" id="home">
+
+        <!-- header --> 
+        <div data-role="header" data-theme='b'>
+            <h2>Quick Getaways - Home</h2>
+        
+            <div data-role="navbar" data-theme='b'>
+                <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#U.S">Vacations in the U.S</a></li>
+                <li><a href="#Europe">Vacations in Europe</a></li>
+                </ul>
+            </div><!-- /navbar -->
+        </div>  
+       
+
+       
+        <!-- content -->
+        <div data-role="content" data-theme='e'>
+
+            <h1>Looking to getaway, but can't decide where?</h1>
+            <h2>Choose a country and let our random generator choose for you! </h2>
+
+            <img src="BeachVacation.jpg" alt="Beach Vacation">
+
+         
+        </div>
+        
+
+          <!-- notes footer --> 
+          <div data-role="footer" data-theme='b'>
+            <h3>&copy; Alexandria LaMaide PROG209</h3>
+        </div>
+        
+    </div>
+   <!-- ======================================================================================== -->
+
+
+   <!-- ======================================================================================== -->
+    <div data-role="page" id="U.S">
+        
+        <!-- =================================== -->
+        <!-- header --> 
+        <div data-role="header" data-theme='b'>
+            <h2>Vacations in the U.S</h2>
+
+            <div data-role="navbar" data-theme='b'>
+                <ul>
+                 <li><a href="#home">Home Page</a></li>
+                 <li><a href="#U.S">Vacations in the U.S</a></li>
+                 <li><a href="#Europe">Vacations in Europe</a></li>
+                </ul>
+            </div><!-- /navbar -->
+
+        </div>
+        <!-- =================================== -->
+
+        <!-- =================================== -->
+        <!-- content -->
+        <div data-role="content" data-theme='e'>
+            <h2>Click the button for a vacation in the U.S!</h2>
+            <button id="randomUS" onclick="randomVacationUS()">Click Here!</button>
+
+            <h2>Your Quick Getaway:</h2>
+                <div id="vacationUS"></div>
+              
+                
+
+
+
+        </div>
+        <!-- =================================== -->
+
+
+        <!-- =================================== -->
+        <!-- notes footer --> 
+        <div data-role="footer" data-theme='b'>
+            <h3>&copy; Alexandria LaMaide PROG209</h3>
+        </div>
+        <!-- =================================== -->
+    </div>
+     <!-- ======================================================================================== -->
+
+
+    
+      <!-- ======================================================================================== -->
+    <div data-role="page" id="Europe">
+        
+          <!-- =================================== -->
+        <!-- header --> 
+        <div data-role="header" data-theme='b'>
+            <h2>Vacations in Europe</h2>
+       
+
+            <div data-role="navbar" data-theme='b'>
+                <ul>
+                <li><a href="#home">Home Page</a></li>
+                <li><a href="#U.S">Vacations in the U.S</a></li>
+                <li><a href="#Europe">Vacations in Europe</a></li>
+                </ul>
+            </div><!-- /navbar -->
+        </div>
+           <!-- =================================== -->
+
+          <!-- =================================== -->
+        <!-- content -->
+        <div data-role="content" data-theme='e'>
+
+            <h2>Click the button for a vacation in Europe!</h2>
+            <button id="randomEurope" onclick="randomVacationEurope()">Click Here!</button>
+
+            <h2>Your Quick Getaway:</h2>
+                <div id="vacationEurope"></div>
+                
+
+
+
+
+
+        </div>
+           <!-- =================================== -->
+
+           <!-- =================================== -->
+        <!-- notes footer --> 
+        <div data-role="footer" data-theme='b'>
+            <h3>&copy; Alexandria LaMaide PROG209</h3>
+        </div>
+        <!-- =================================== -->
+
+    </div>
+     <!-- ======================================================================================== -->
+    
+     <script src="script.js"></script>
+    
+</body>
+</html>
