@@ -1,4 +1,85 @@
 
 
+body.winter {
+    background-color: #e6e6e6;
+}
+
+.snowflake {
+    width: 50px;
+    height: 50px;
+    background-image: url('./snowflake.png');
+    background-size: contain;
+}
+
+/* Spring style */
+body.spring {
+    background-color: #f0fff4;
+}
+
+.flower {
+    width: 50px;
+    height: 50px;
+    background-image: url('./flower.png');
+    background-size: contain;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 69vh;
+}
+
+[data-role="header"], [data-role="footer"] {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the content */
+[data-role="content"] {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navbar */
+[data-role="navbar"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the navbar links */
+[data-role="navbar"] ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+/* Style the random vacation container */
+#vacationUS, #vacationEurope {
+    background-color: #fff;
+    color: #222;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+/* Style the button */
+button {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
 
 
